@@ -6,8 +6,8 @@
 LOCKFILE="/tmp/ip_alert.lock"
 IPFILE="/tmp/last_ip.txt"
 SUBJECT="Public IP Address Changed"
-TO="ndsdrall5@gmail.com"
-FROM="website.nipun@gmail.com"
+TO="Receiver@example.com"
+FROM="Sender@example.com"
 
 # Get current public IP
 CURRENT_IP=$(curl -s https://api.ipify.org)
