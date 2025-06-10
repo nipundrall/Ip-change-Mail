@@ -69,3 +69,8 @@ Systemctl Start/Enable postfix.service
 
 ##### Try sending test main 
 echo "Test Mail" | mail -s "Postfix TEST" receiver@mail.com
+
+
+# After these steps Edit "ipchangemail.sh" with your own Credentials and needs.
+
+Hope It Helps
