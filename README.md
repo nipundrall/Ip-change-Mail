@@ -65,5 +65,7 @@ To convert "sasl_passwd" file use "postmap" {postmap /file path}
 
 ### Start postfix service 
 
-Try sending test main 
+Systemctl Start/Enable postfix.service
+
+##### Try sending test main 
 echo "Test Mail" | mail -s "Postfix TEST" receiver@mail.com
