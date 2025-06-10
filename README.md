@@ -24,20 +24,18 @@ relayhost = [smtp.gmail.com]:587
 myhostname= your_hostname
 
 
-At the end of "main.cf" add
+## At the end of "main.cf" add
 
-
-Location of sasl_passwd we saved
+# Location of sasl_passwd we saved
 
 smtp_sasl_password_maps = hash:/etc/postfix/sasl/sasl_passwd { Or give any other path for "passwd" file }
 
-Enables SASL authentication for postfix
+# Enables SASL authentication for postfix
 
 smtp_sasl_auth_enable = yes
-
 smtp_tls_security_level = encrypt
 
-Disallow methods that allow anonymous authentication
+# Disallow methods that allow anonymous authentication
 
 smtp_sasl_security_options = noanonymous
 
