@@ -71,6 +71,6 @@ Systemctl Start/Enable postfix.service
 echo "Test Mail" | mail -s "Postfix TEST" receiver@mail.com
 
 
-# After these steps Edit "ipchangemail.sh" with your own Credentials and needs.
+## After these steps Edit "ipchangemail.sh" with your own Credentials and needs.
 
 Hope It Helps
