@@ -46,7 +46,7 @@ In file "sasl_passwd" add
 
 [smtp.gmail.com]:587 email@gmail.com:password { Where "email@gmail.com is your email id and password is password you get from google" }
 
-TO get password from google:
+##### TO get password from google:
 
 1. Make sure 2 step authentication is enabled
 2. Search for "App Paswords" 
@@ -59,13 +59,11 @@ Then Convert "sasl_passwd" file in db file
 
 To convert "sasl_passwd" file use "postmap" {postmap /file path}
 
-Then add permissions 
+##### Then add permissions 
 
 "Chmod 600 "
 
-###
-
-Start postfix service 
+### Start postfix service 
 
 Try sending test main 
 echo "Test Mail" | mail -s "Postfix TEST" receiver@mail.com
