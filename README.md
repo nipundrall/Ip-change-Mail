@@ -8,7 +8,7 @@ Should add cron job to automate.
 
 Also add output file to store the output of the script.
 
-####### Please Follow Steps Below To Make your own SMTP Server #####
+### Please Follow Steps Below To Make your own SMTP Server
 
 
 Install "postfix" and "mailx"
